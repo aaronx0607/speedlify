@@ -1,6 +1,6 @@
 module.exports = {
-	name: "SSG", // optional, falls back to object key
-	description: "Static Site Generator web sites",
+	name: "All web Sites", // optional, falls back to object key
+	description: "所有站点数据",
 	// skip if localhost
 	// skip if this is a new fork of the speedlify (not Zach’s)
 	// skip: !process.env.CONTEXT || process.env.SITE_NAME !== "speedlify",
@@ -14,10 +14,10 @@ module.exports = {
 	},
 	urls: [
 		"https://www.lightnode.com/",
-		// "https://console.lightnode.com/",
-		// "https://www.lightnode.cn/",
-		// "https://vpssos.com/",
-		// "https://laysky.com/",
-		// "https://www.darkmap.cn/",
+		"https://console.lightnode.com/",
+		"https://www.lightnode.cn/",
+		"https://vpssos.com/",
+		"https://laysky.com/",
+		"https://www.darkmap.cn/",
 	]
 };
