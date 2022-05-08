@@ -1,5 +1,5 @@
 module.exports = {
-	name: "All web Sites", // optional, falls back to object key
+	name: "ALL", // optional, falls back to object key
 	description: "所有站点数据",
 	// skip if localhost
 	// skip if this is a new fork of the speedlify (not Zach’s)
