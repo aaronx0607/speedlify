@@ -6,10 +6,10 @@ module.exports = {
 	},
 	urls: [
 		"https://www.lightnode.com/",
-		"https://console.lightnode.com/",
-    "https://www.lightnode.cn/",
-		"https://vpssos.com/",
-		"https://laysky.com/",
-		"https://www.darkmap.cn/",
+		// "https://console.lightnode.com/",
+		// "https://www.lightnode.cn/",
+		// "https://vpssos.com/",
+		// "https://laysky.com/",
+		// "https://www.darkmap.cn/",
 	]
 };
