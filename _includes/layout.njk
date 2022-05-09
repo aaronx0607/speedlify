@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Speedlify</title>
-		<meta name="description" content="Benchmark web pages over time.">
+		<title>网站综合评分</title>
+		<meta name="description" content="随着时间的推移对网页进行基准测试。">
 		<link rel="stylesheet" href="{{ '/style.css' | url }}">
 		<script>
 		document.documentElement.classList.add("js");
@@ -13,17 +13,13 @@
 	<body>
 		<h1 class="speedlify-hed"><a href="{{ '/' | url }}">speedlify</a>{% if vertical %}:{{ vertical }}{% endif %}</h1>
 		<p class="speedlify-subhed">
-			Benchmark {{ sites[vertical].description or "web pages" }} over time.
+			随着时间推移对 {{ sites[vertical].description or "网页" }} 进行基准测试.
 			{%- if sites[vertical].unordered %}
 				Results for this category are unordered.
 			{%- endif %}
 			{%- if maxResults %}
-				Updates <em>at most</em> once every {{ sites[vertical].options.frequency or 60 }} minutes. Only the last {{ maxResults }} run{% if maxResults != 1 %}s{% endif %} (and the oldest run) are shown.
+				<em>最多</em> 每 {{ sites[vertical].options.frequency or 60 }} 分钟更新一次。只显示最后 {{ maxResults }} 次运行 {% if maxResults != 1 %}s{% endif %} (以及最早的运行)。
 			{%- endif %}
-			Created by <a href="https://www.zachleat.com/">@zachleat</a>.
-		</p>
-		<p class="speedlify-subhed">
-			<a href="https://github.com/zachleat/speedlify/#deploy-to-netlify">Deploy your own instance of Speedlify and test your web sites</a>.
 		</p>
 
 		{{ content | safe }}

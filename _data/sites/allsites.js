@@ -19,5 +19,6 @@ module.exports = {
 		"https://vpssos.com/",
 		"https://laysky.com/",
 		"https://www.darkmap.cn/",
+		"https://www.fuwu7.com/"
 	]
 };
