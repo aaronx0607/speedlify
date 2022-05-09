@@ -18,7 +18,7 @@
 				Results for this category are unordered.
 			{%- endif %}
 			{%- if maxResults %}
-				<em>最多</em> 每 {{ sites[vertical].options.frequency or 60 }} 分钟更新一次。只显示最后 {{ maxResults }} 次运行 {% if maxResults != 1 %}s{% endif %} (以及最早的运行)。
+				<em>最多</em> 每 {{ sites[vertical].options.frequency or 60 }} 分钟更新一次。只显示最后 {{ maxResults }} 次运行 {% if maxResults != 1 %} {% endif %} (以及最早的运行)。
 			{%- endif %}
 		</p>
 

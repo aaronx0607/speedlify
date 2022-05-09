@@ -1,6 +1,7 @@
 module.exports = {
 	name: "ALL", // optional, falls back to object key
 	description: "所有站点数据",
+	skip:false,
 	// skip if localhost
 	// skip if this is a new fork of the speedlify (not Zach’s)
 	// skip: !process.env.CONTEXT || process.env.SITE_NAME !== "speedlify",
@@ -19,6 +20,6 @@ module.exports = {
 		"https://vpssos.com/",
 		"https://laysky.com/",
 		"https://www.darkmap.cn/",
-		"https://www.fuwu7.com/"
+		"https://www.fuwu7.com/",
 	]
 };
